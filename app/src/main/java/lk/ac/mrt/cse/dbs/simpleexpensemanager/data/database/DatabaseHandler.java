@@ -30,7 +30,7 @@ public class DatabaseHandler extends SQLiteOpenHelper {
 
     // Table names
     private static final String TABLE_ACCOUNT = "Account";
-    private static final String TABLE_TRANSACTION = "Transaction";
+    private static final String TABLE_TRANSACTION = "Transactions";
 
     // Account Table Columns names
     private static final String ACCOUNT_ACCOUNT_NO = "accountNo";
