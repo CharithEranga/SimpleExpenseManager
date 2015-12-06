@@ -23,6 +23,9 @@ import java.util.Date;
  */
 public class Transaction {
     private Date date;
+    private String accountNo;
+    private ExpenseType expenseType;
+    private double amount;
 
     public Date getDate() {
         return date;
@@ -56,12 +59,7 @@ public class Transaction {
         this.amount = amount;
     }
 
-    private String accountNo;
-    private ExpenseType expenseType;
-    private double amount;
-
-    public Transaction(Date date, String accountNo,
-                       ExpenseType expenseType, double amount) {
+    public Transaction(Date date, String accountNo, ExpenseType expenseType, double amount) {
         this.date = date;
         this.accountNo = accountNo;
         this.expenseType = expenseType;
